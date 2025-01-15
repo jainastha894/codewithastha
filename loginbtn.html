@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        #header-buttons{
+    float:right;
+}
+#nav-header{
+    display:flex;
+    justify-content:right;
+    margin-right: 10%;
+    padding:5px;
+}
+#second-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+header>h2{
+    color:blueviolet;
+}
+#second-nav>a{
+margin-left: 15px;
+margin-right: 15px;
+font-size: 20px;
+text-transform: capitalize;
+color:blueviolet;
+}
+#nav-header>a{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+#img{
+    clip-path: circle(40%);
+    height:60px;
+    width:60px;
+
+}
+a{
+    text-decoration: none;
+}
+#main{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+#submit{
+    width:max-content;
+    height: auto;
+    font-size: large;
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h2>CodeWithAstha</h2>
+        <div id="navNbuttons">
+            <nav id="nav-header">
+                <a href="codewithastha.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="work.html">Work with Us</a>
+                <a href="notes.html">Notes</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+           
+           
+        </div>
+        
+            </header>
+            <hr>
+        <div id="second-header">
+        <button id="home-btn">
+            <a href="codewithastha.html">&#127968;</a>
+        </button>
+          
+        <nav id="second-nav">
+            <a href="html.html">HTML</a>
+            <a href="react-js.html">react js</a>
+            <a href="js-course.html">javascript</a>
+            <a href="django.html">django</a>
+            <a href="python-course.html">Python</a>
+    
+        </nav>
+        
+        </div>
+        <br><br><br><br>
+        <div id="main">
+            
+        <img id="img" src="c:\Users\HP\Downloads\WhatsApp Image 2024-08-11 at 2.57.08 PM.jpeg">
+        <h1>CodeWithAstha.com</h1>
+        <p>Login with email</p>
+    
+    
+        <h3>Email Address</h3>
+        <input type="text" name="email" required>
+        <h3>Password</h3>
+        <input type="text" name="password" required>
+    
+        <br>
+        <input id="submit" type="submit" value="Login">
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work with us</title>
+    <style>
+
+#nav-header{
+    display:flex;
+    justify-content:right;
+    margin-right: 10%;
+    padding:5px;
+}
+#second-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+header>h2{
+    color:blueviolet;
+}
+
+#nav-header>a{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+#main{
+    display:flex;
+   margin-top: 30px;
+    align-items: center;
+}
+
+#content{
+    width:650px;
+    height:auto;
+    float: left;
+   
+    
+}
+#form{
+    width:400px;
+    height:auto;
+    background-color: rgb(227, 200, 240);
+    border: 2px solid gray;
+    padding:20px;
+    float: right;
+}
+#radios{
+    display: flex;
+    flex-direction: column;
+}
+#submit{
+    text-align: center;
+    margin-top: 10px;
+
+}
+#submit:hover{
+    object-position: 30px;
+}
+footer>img{
+    clip-path: circle(40%);
+    height:60px;
+    width:60px;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h2>CodeWithAstha</h2>
+        <div id="navNbuttons">
+            <nav id="nav-header">
+                <a href="codewithastha.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="work.html">Work with Us</a>
+                <a href="notes.html">Notes</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+           
+           
+        </div>
+        
+            </header>
+            <hr>
+        <div id="second-header">
+        <button id="home-btn">
+            <a href="codewithastha.html">&#127968;</a>
+        </button>
+        
+       
+        
+            <div id="main">
+                <div id="content">
+                <h1>We are hiring!</h1>
+                <p>We are looking for freelance Developers, Subtitle writers, Content writers and Video editors. If you think you are fit for the role. Submit the form. Make sure you have a valid email so we can contact you back in case your application gets selected. Cheers!</p>
+            </div>
+
+            <div id="form">
+                <p>India Only</p>
+                <h4>Apply Now!</h4>
+                <br>
+                <p>Full Name</p>
+                <input type="text" name="full name">
+                <br>
+                <p>Email</p>
+                <input type="text" name="email">
+                <br>
+                <p>phone number</p>
+                <input type="text" name="phone number">
+                <br>
+                <p>Link to your resume</p>
+                <input type="text" name="link">
+                <br>
+                <p>Skills</p>
+                <div id="radios">
+                    <div class="radio">
+                <input type="radio" value="java dev" name="skills" id="java dev">
+                <label for="java dev">java dev</label></div>
+                <div class="radio">
+                <input type="radio" value="java dev" name="skills" id="javascript dev">
+                <label for="javascript dev">javascript dev</label></div>
+                <div class="radio">
+                <input type="radio" value="java dev" name="skills" id="subtitle writer">
+                <label for="subtitle writer">subtitle writer</label></div>
+                <div class="radio">
+                <input type="radio" value="java dev" name="skills" id="Python Dev">
+                <label for="Python Dev">Python Dev</label></div>
+                <div class="radio">
+                <input type="radio" value="PHP Dev" name="skills" id="PHP Dev">
+                <label for="php dev">PHP Dev</label></div>
+                <div class="radio">
+                <input type="radio" value="Content Writer" name="skills" id="Content Writer">
+                <label for="Content Writer">Content Writer</label></div>
+                <div class="radio">
+                <input type="radio" value="MERN Dev" name="skills" id="MERN Dev">
+                <label for="MERN Dev">MERN Dev</label></div>
+                <div class="radio">
+                <input type="radio" value="Video Editor" name="skills" id="Video Editor">
+                <label for="Video Editor">Video Editor</label></div>
+            </div>
+            <input id="submit" type="submit" value="submit">
+            </div>
+            
+        </div>
+        <footer>
+            <img src="e:\phone images\20231012_122711.jpg">
+            <h4>CodeWithAstha  |</h4>
+            <h6>copyright  &#169; 2024 CodeWithAstha.com</h6>
+            
+        </footer>
+</body>
+</html>

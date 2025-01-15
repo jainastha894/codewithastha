@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code with astha</title>
+    <link rel="stylesheet" href="CodeWithAstha.css">
+</head>
+<body>
+    <header>
+<h2>CodeWithAstha</h2>
+<div id="navNbuttons">
+    <nav id="nav-header">
+        <a href="codewithastha.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="work.html">Work with Us</a>
+        <a href="notes.html">Notes</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div id="header-buttons">
+        <button><a href="loginbtn.html">login</a></button>
+        <button><a href="signup.html">signup</a></button>
+    </div>
+   
+</div>
+
+    </header>
+    <hr>
+<div id="second-header">
+<button id="home-btn">
+    <a href="codewithastha.html">&#127968;</a>
+</button>
+            <nav id="second-nav">
+                <a href="html.html">HTML</a>
+                <a href="react-js.html">react js</a>
+                <a href="js-course.html">javascript</a>
+                <a href="django.html">django</a>
+                <a href="python-course.html">Python</a>
+        
+            </nav>
+            <div id="imgdiv">
+            <img id="animated-img" src="c:\Users\HP\Desktop\web projects\mooc.jpg" alt="">
+        </div>
+
+
+</div><div id="first">
+    <div id="first-block">
+    <h1>Welcome to  <div class="purple">  CodeWithAstha</div></h1>
+    <h2 id="changingWord" class="purple">Learn React js</h2>
+    <p>Confused on which course to take? I have got you covered. Browse courses and find out the best course for you. Its free! Code With Harry is my attempt to teach basics and those coding techniques to people in short time which took me ages to learn.</p>
+    <br><br><br>
+    <button>Free Courses</button>
+    <button>Explore Blog</button></div>
+    <div id="first-img">
+    <img src="c:\Users\HP\Desktop\web projects\codingimg"></div>
+</div>
+
+
+<div id="second-block">
+    <h1>Recomended Courses</h1>
+    <div id="second-block-con">
+    <div class="recomended-courses" id="rc-1">
+        <img src="c:\Users\HP\Desktop\web projects\JS-Thumb.jpg">
+        <h5>FREE COURSE</h5>
+        <h4>Ultimate JavaScript Course</h4>
+        <p>This latest JavaScript course comes with premium curriculum that covers everything from basics to advance. On top of that, you will get my handwritten notes of JS for completely free. What are you waiting for? Just Enroll Buddy</p>
+        <button><a href="js-course.html">Start Watching</a></button>
+
+    </div>
+    <div class="recomended-courses" id="rc-2">
+        <img src="c:\Users\HP\Desktop\web projects\thumbnail-2.png">
+        <h5>FREE COURSE</h5>
+        <h4>React JS Tutorials For Beginners</h4>
+        <p>React is a free and open-source front-end JavaScript library. This series will cover React from starting to the end. We will learn react from the ground up!</p>
+        <button>Start Watching</button>
+    </div>
+    <div class="recomended-courses" id="rc-3">
+        <img src="c:\Users\HP\Desktop\web projects\thumbnail-4.jpg">
+        <h5>FREE COURSE</h5>
+        <h4>Python Tutorials - 100 Days of Code</h4>
+        <p>Python is one of the most demanded programming languages in the job market. Surprisingly, it is equally easy to learn and master Python. Let's commit our 100 days of code to python!</p>
+        <button>Start Watching</button>
+    </div>
+</div>
+</div>
+
+<div id="third-block">
+    <h1>Testimonials</h1>
+    <div id="third-block-con">
+    <div class="testimonials" id="testimonial1">
+        <p>I don't have words to thank this man, I'm really grateful to have this channel and website in my daily routine. If you're a mere beginner, then you can trust this guy and can put your time into his content. I can assure you that it'll be worth it.</p>
+        <h6>Mohit Kumar</h6>
+        <p>Web Developer</p>
+    </div>
+    <div class="testimonials" id="testimonial2">
+        <p>For everyone who wants to level up their #Coding and #Dev skills - seriously, this channel is for you! Both basic and advanced stacks are covered on this channel, and one can learn according to his skill levels. And the icing on the cake is, everything is available for free.
+
+        </p>
+        <h6>Rakesh Shetty</h6>
+        <p>Web Developer</p>
+    </div>
+</div>
+</div>
+<br><br><br>
+<footer>
+    <img src="e:\phone images\20231012_122711.jpg">
+    <h4>CodeWithAstha  |</h4>
+    <h6>copyright  &#169; 2024 CodeWithAstha.com</h6>
+    
+</footer>
+</body>
+<script> 
+    const words = ['Learn Data Science','Learn Web Development','Learn Frontend','Learn Backend','Learn Programming Languages']; // Add your words here 
+    let currentWord = 0; 
+    const wordElement = document.getElementById('changingWord'); 
+ 
+    setInterval(() => { 
+      currentWord = (currentWord + 1) % words.length; 
+      wordElement.textContent = words[currentWord]; 
+    }, 1000); // 2000 milliseconds = 2 seconds 
+  </script> 
+</html>
